@@ -1,0 +1,71 @@
+To print maximum between between 2 numbers
+"""
+"""
+first = int(input("enter first number"))
+second = int(input("enter second number"))
+if first > second:
+ print("first number is greater")
+else :
+ print("second number is greater")
+ """
+
+""" to find the minimum between two numbers"""
+"""
+first = int(input("enter first number"))
+second = int(input("enter second number"))
+if first < second:
+ print("first number is smaller")
+else:
+ print("second number is smaller")
+ """
+"""
+3)print maximum value from 10 variables without using built in functions
+4)print minimum value from 10 variables  without using built in functions
+"""
+"""
+input_set = []
+input_num = 0
+
+while (input_num >= 0):
+
+    input_num = int(input("Please enter a number or -1 to finish"))
+    if (input_num < 0):
+        break
+    input_set.append(input_num)
+
+print(input_set)
+
+largest = input_set[0]
+for i in range(len(input_set)):
+
+    if input_set[i] > largest:
+        greatest = input_set[i]
+
+print("Largest number is", greatest)
+
+
+
+smallest = input_set[0]
+for i in range(len(input_set)):
+
+    if input_set[i] < largest:
+        smallest = input_set[i]
+
+print("Smallest number is", smallest)
+"""
+
+"""
+NAME | ADDRESS | PHONENO | RELATIONSHIP
+"""
+"""
+input_name = 0
+input_address = 0
+input_phoneno = 0
+input_relationship = 0
+input_name = str(input("ENTER THE NAME: "))
+input_address = str(input("ENTER THE ADDRESS: "))
+input_phoneno = int(input("ENTER UR PHONE NUMBER: "))
+input_relationship = str(input("ENTER THE RELATIONSHIP: "))
+print("NAME   | ADDRESS  | PHONENO   | RELATIONSHIP", end='\n')
+print(input_name,"|", input_address,"  |", input_phoneno,"  |", input_relationship)
+"""
